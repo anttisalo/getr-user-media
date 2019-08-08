@@ -1,4 +1,3 @@
-# Simple HTML starter boilerplate
+# Javascript get user media
 
-### Includes
-* lite-server
+Test out how you can interact directly with the webcam from your browser.

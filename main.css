@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 100%;
 }
@@ -5,4 +9,29 @@ html {
 body {
   max-width: 80rem;
   margin: 0 auto;
+}
+
+.container {
+  border: 5px solid salmon;
+  display: inline-block;
+  font-size: 0;
+  margin: 1rem;
+}
+
+.video {
+  min-width: calc(100% - 2rem);
+}
+
+#videoContainer {
+  width: 100%;
+  min-width: calc(100% - 2rem);
+}
+
+#startStop {
+  background: white;
+  border: none;
+  z-index: 10;
+  font-size: 2rem;
+  color: salmon;
+  padding: 1rem 2rem;
 }

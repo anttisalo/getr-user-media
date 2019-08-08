@@ -1,0 +1,14 @@
+{
+  "name": "HTML boiler",
+  "version": "0.0.1",
+  "description": "Boilerplate",
+  "main": "main.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Antti Salo",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
